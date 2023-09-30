@@ -96,8 +96,7 @@ setTimeout(() => {
     // 1 COMBI
     if ((box[0].textContent == 'X') && (box[1].textContent == 'X') && (box[2].textContent == 'X')) {
 
-        line.style.top = "11vh"
-        line.style.backgroundColor="#911d91"
+      
         winner.innerHTML = "X won"
 
 
@@ -110,8 +109,7 @@ setTimeout(() => {
 
     }
     if ((box[0].textContent == 'O') && (box[1].textContent == 'O') && (box[2].textContent == 'O')) {
-        line.style.top = "11vh"
-        line.style.backgroundColor="#911d91"
+         
         winner.innerHTML = "O won"
         clearTimeout();
 
